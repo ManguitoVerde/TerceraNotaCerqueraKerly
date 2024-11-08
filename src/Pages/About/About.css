@@ -1,0 +1,32 @@
+.container {
+   
+background-image: url('https://img.freepik.com/foto-gratis/fondo-pantalla-patron-cuadricula-blanca-minima-estetica_53876-96916.jpg?t=st=1730176313~exp=1730179913~hmac=317199b76d234d80e24f730bcee29593fdecbc1a48c3b04a50c6076193e92397&w=900'); /* Reemplaza con la URL de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding-top: 20px;
+  
+  }
+  
+  .card {
+   
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Sombra negra */
+    margin: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el mouse */
+  }
+  .card-media {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    
+  }
+  
+  @media (min-width: 600px) {
+    .card-media {
+      height: 400px;
+    }
+  }

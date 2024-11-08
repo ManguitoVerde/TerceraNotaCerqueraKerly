@@ -1,0 +1,20 @@
+footer {
+    background-color: rgb(230, 67, 184);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Mantiene el footer en el frente */
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra para separación */
+    opacity: 1; /* Asegura que el fondo sea opaco */
+}
+
+body {
+    margin-bottom: 150px; /* Ajusta según la altura del footer */
+    background-color: #f0f0f0; /* Cambia a un color sólido */
+}
